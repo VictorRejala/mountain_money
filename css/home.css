@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+body {
+    background: rgb(0,0,0);
+    /*background: radial-gradient(circle, rgba(0,0,0,1) 38%, rgb(49, 15, 129) 100%);
+    background: linear-gradient(0deg, rgba(41,34,172,1) 0%, rgba(0,0,0,1) 90%);*/
+    background: linear-gradient(0deg, rgb(21, 12, 190) 0%, rgb(31, 4, 82) 30%, rgba(0,0,0,1) 80%);
+    /*background: linear-gradient(0deg, rgb(6, 164, 255) 0%, rgb(31, 4, 82) 30%, rgba(0,0,0,1) 80%);*/
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-end;
+    color: whitesmoke;
+    /*background-color: rgb(32, 23, 52);*/
+}
+
+.mid{
+    display: flex;
+    justify-content: center;    
+    gap: 1vw;
+}
+
+.mid > a {
+    color: whitesmoke;
+    flex-grow: 1;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5em;
+}
+
+.widthHeader {
+    width: 25vw;
+}
+
+.imgUser {
+    display: flex;
+    flex-direction: column;
+}
+
+/*.infoUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}*/
+
+.randomNumber {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 2em;
+    padding-top: 15vh;
+    color: white;
+    /*background-color: black;*/
+    cursor: default;
+}
+
+.randomNumber > .button > #play, .randomNumber > .button > #restart {
+
+    height: 2em;
+    gap: 0.5vw;
+    width: 9.5vw;
+    border: none;
+    background-color: black;
+    font-size: 1em;
+    color: lightcyan;
+}
+
+.randomNumber > .button > #play:hover, .randomNumber > .button > #restart:hover {
+
+    background-color: rgb(14, 89, 124);
+    cursor: pointer;
+}
+
+.randomNumber > #number {
+
+    text-align: center;
+    height: 2em;
+    width: 19.5vw;
+    font-size: 1em; 
+    margin-top: 1em;   
+    background-color: rgb(204, 204, 204);
+}
+
+#infoGame {
+
+    text-align: center;
+}
+
+/*.boxGame{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 38%, rgba(148,187,233,1) 100%);
+}*/

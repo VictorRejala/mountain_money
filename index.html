@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Money</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <h1>MOUNTAIN MONEY</h1>
+            <img src="animate/scope-animate.svg" width="70%" alt="Scope">
+        </div>
+    
+        <div class="login">
+                <form action="" id="formLogin">
+                <label for="email">Informe o e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="seuemail@exemplo.com" required>
+                
+                <label for="password">Informe a senha:</label>
+                <input type="password" name="password" id="password" placeholder="Sua senha" required>
+    
+                <input type="submit" name="loginSubmit" id="loginSubmit" value="Entrar">
+                <input type="button" name="create" id="create" value="Cadastre-se">
+            </form>
+        </div>
+
+        <div class="createAccountBox invisible">
+            <form action="" id="formCreateAccount">
+                <label for="name">Digite seu nome:</label>
+                <input type="text" placeholder="Seu nome" name="user" id="newUser" required>
+
+                <label for="email">Digite seu e-mail:</label>
+                <input type="email" name="email" id="newEmail" placeholder="seuemail@exemplo.com" required>
+
+                <label for="password">Informe a senha:</label>
+                <input type="password" name="password" id="newPassword" placeholder="Sua senha" required>
+
+                <input type="button" name="createAccount" id="createAccount" value="Cadastrar">
+                <input type="button" name="back" id="back" value="Voltar">
+            </form>
+        </div>
+
+    </div>
+    <script src="js/account.js"></script> 
+    <script src="js/formMain.js"></script>
+    
+</body>
+</html>

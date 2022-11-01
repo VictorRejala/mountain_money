@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Money</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="widthHeader">Mountain Money</h1>
+        <div class="mid">
+            <a href="#">Numero da sorte</a>
+            <!--<a href="#">Jogo 21</a> -->           
+            <a href="#">Loja</a>
+        </div>
+        <div class="right widthHeader">
+            <div class="infoUser">
+                <!--<h2 id="user">User</h2>-->
+                <h4 id="coin">Coin</h4>
+            </div>
+            <div class="imgUser">
+                <img src="img/user1.png" alt="Usuario">
+                <!--<span>Sair</span>-->
+            </div>            
+        </div>
+        
+    </header>
+    <main>
+        <div class="boxGame">
+            <form class="randomNumber" action="">
+                <span class="titleGame">
+                    Jogo do Numero da Sorte
+                </span>
+                <label for="number">Informe um numero de 1 a 100</label>
+                <p id="infoTry">Você tem 7 chances</p>
+                <p id="infoGame">Boa sorte</p>
+                <input type="number" name="number" id="number">
+                <div class="button">
+                    <input type="submit" value="Jogar" id="play">
+                    <input type="button" value="Reiniciar" id="restart">
+                </div> 
+            </form>
+        </div>
+    </main>
+    <script src="js/account.js"></script>
+    <script src="js/randomNumber.js"></script>
+</body>
+</html>
