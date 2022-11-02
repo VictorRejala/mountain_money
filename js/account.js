@@ -16,7 +16,6 @@ function createAccountFunction (newUser, newEmail, newPassword) {
     }  
 };
 
-
 function checkAccount (emailLogin, passwordLogin) {
 
     var logou = false;
@@ -33,8 +32,7 @@ function checkAccount (emailLogin, passwordLogin) {
 
     if(logou) {
                
-        window.location.href = "home.html"; 
-                  
+        window.location.href = "home.html";       
     } else {
         alert("Usuario ou Senha errada").preventDefault();
     }

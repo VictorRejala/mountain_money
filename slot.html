@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain Money</title>
     <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/slot.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="widthHeader">Mountain Money</h1>
+        <h1 class="widthHeader">Mountain Money</a></h1>
         <div class="mid">
             <a href="number.html">Numero da Sorte</a>
             <!--<a href="#">Jogo 21</a> -->
             <a href="slot.html">Roleta</a>           
-            <a href="#">Loja</a>
+            <a href="home.html">Loja</a>
         </div>
         <div class="right widthHeader">
             <div class="infoUser">
@@ -28,24 +29,36 @@
             </div>            
         </div>
     </header>
-    <!--<main>
-        <div class="boxGame">
-            <form class="randomNumber" action="">
-                <span class="titleGame">
-                    Jogo do Numero da Sorte
-                </span>
-                <label for="number">Informe um numero de 1 a 100</label>
-                <p id="infoTry">Você tem 7 chances</p>
-                <p id="infoGame">Boa sorte</p>
-                <input type="number" name="number" id="number">
-                <div class="button">
-                    <input type="submit" value="Jogar" id="play" onclick="playRandomNumber()">
-                    <input type="button" value="Reiniciar" id="restart" onclick="restartGame()">
-                </div> 
-            </form>
-        </div>
+    
+    <main>
+        <div id="app">
+            <div class="doors">
+              <div class="door">
+                <div class="boxes">
+                  <!-- <div class="box">?</div> -->
+                </div>
+              </div>
+          
+              <div class="door">
+                <div class="boxes">
+                  <!-- <div class="box">?</div> -->
+                </div>
+              </div>
+          
+              <div class="door">
+                <div class="boxes">
+                  <!-- <div class="box">?</div> -->
+                </div>
+              </div>
+            </div>
+          
+            <div class="buttons">
+              <button id="spinner">Jogar</button>
+              <button id="reseter">Reiniciar</button>
+            </div>
+          </div>
     </main>
-    <script src="js/randomNumber.js"></script>-->
+    <script src="js/slot.js"></script>
     <script src="js/account.js"></script>
 </body>
 </html>
